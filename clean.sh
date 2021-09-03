@@ -1,9 +1,10 @@
 sudo apt clean
-echo Cleaning
+echo -------------CLEANING-------------
+sudo apt-get autoclean
 
-echo Autoremoving
+echo -----------AUTOREMOVING-----------
 sudo apt-get autoremove
 sudo apt-get autoremove --purge
 
-echo rm
+echo ----------------RM----------------
 sudo rm -rf ~/.cache/thumbnails/*
